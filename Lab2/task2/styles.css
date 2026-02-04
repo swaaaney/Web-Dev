@@ -136,3 +136,56 @@ body {
 .footer-links {
     margin: 10px;
 }
+
+button, input, a {
+    transition: all 0.25s ease;
+}
+
+.right input:focus {
+    outline: none;
+    border-color: rgb(0,136,244);
+    box-shadow: 0 0 0 2px rgba(0,136,244,0.15);
+}
+
+.login:hover {
+    background-color: rgb(0,120,220);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.facebook:hover {
+    background-color: #f5f5f5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.new-acc:hover {
+    background-color: rgb(0,136,244);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    cursor: pointer;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.login-part a:hover {
+    color: rgb(0,136,244);
+}
+
+.meta:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.left img {
+    transition: transform 0.4s ease;
+}
+
+.left img:hover {
+    transform: scale(1.03);
+}
