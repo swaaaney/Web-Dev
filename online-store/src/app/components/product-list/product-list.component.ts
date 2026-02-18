@@ -151,6 +151,6 @@ export class ProductListComponent {
         'https://resources.cdn-kaspi.kz/img/m/p/pd2/pc7/11196760.png?format=gallery-medium'
       ],
       link: 'https://l.kaspi.kz/shop/3o8Uk8eUWTKpvcK'
-    },
+    }
   ];
 }
