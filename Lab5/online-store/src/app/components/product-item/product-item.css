@@ -1,0 +1,54 @@
+
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.card button {
+  margin-right: 5px;
+  margin-top: 8px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:nth-child(6) {
+  background: #ff4081;
+  color: white;
+}
+
+.card button:nth-child(7) {
+  background: #2196f3;
+  color: white;
+}
+
+.card button:nth-child(8) {
+  background: #f44336;
+  color: white;
+}
+
+.buy-button {
+    margin-right: 5px;
+    margin-top: 8px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff; 
+    color: white;
+    text-decoration: none;
+}
+.buy-button:hover {
+  background-color: #0056b3; 
+}
