@@ -29,15 +29,18 @@
 }
 
 .card button:nth-child(7) {
-  background: #2196f3;
+  background: #f08dde;
   color: white;
 }
 
+.card button:nth-child(9) {
+  background: #229ED9;
+  color: white;
+}
 .card button:nth-child(8) {
-  background: #f44336;
+  background: #25D366;
   color: white;
 }
-
 .buy-button {
     margin-right: 5px;
     margin-top: 8px;

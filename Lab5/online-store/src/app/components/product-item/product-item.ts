@@ -21,11 +21,15 @@ export class ProductItemComponent {
   remove() {
     this.delete.emit(this.product().id);
   }
-
-  share() {
-    const url = encodeURIComponent(this.product().link);
-    window.open(`https://wa.me/?text=${url}`, '_blank');
+  shareWhatsApp() {
+  const url = this.product().link;
+  window.open(`https://wa.me/?text=${encodeURIComponent(url)}`, '_blank');
   }
+  shareTelegram() {
+  const url = this.product().link;
+  window.open(`https://t.me/share/url?url=${encodeURIComponent(url)}`, '_blank');
+  }
+  
   buy() {
   window.open(this.product().link, '_blank');
   }
