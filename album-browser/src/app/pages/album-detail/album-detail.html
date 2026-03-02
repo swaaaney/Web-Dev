@@ -1,0 +1,22 @@
+<div *ngIf="album$ | async as album">
+
+  <h2>Album Details</h2>
+
+  <p>ID: {{ album.id }}</p>
+  <p>User ID: {{ album.userId }}</p>
+
+  <input [(ngModel)]="album.title">
+
+  <button (click)="save(album)">Save</button>
+
+  <br><br>
+
+  <a [routerLink]="['/albums', album.id, 'photos']">
+    View Photos
+  </a>
+
+  <br><br>
+
+  <button routerLink="/albums">Back</button>
+
+</div>
