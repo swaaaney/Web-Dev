@@ -1,0 +1,25 @@
+<h1>Hello, {{name}}</h1>
+<h2>Here is my favourite programming laguages: </h2>
+<ul>
+  @for (lang of languages; track lang) {
+    <li>{{lang}}</li>
+  }
+</ul>
+<router-outlet></router-outlet>
+<button (click) = "toggleGreeting()">
+click me!
+</button>
+@if (showGreeting) {
+  <p>Hello! Welcome to my Angular site!</p>
+}
+
+<h2>Counter: {{count}}</h2> 
+
+<button (click) = "increment()">+</button>
+<button (click) = "decrement()">-</button>
+
+@if(count < 0) {
+    <p style = "color: crimson;">
+        Warning! The number can't be less than 0!
+    </p>
+}
